@@ -174,7 +174,7 @@ function App() {
 						<p className="countdown">
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
 						</p>
-						<p>Welcome! Mint your free emoji (not including gas fees) on 11/04/21</p>
+						<p>Welcome! Mint your Mirroverse NFT's (not including gas fees) on 11/04/21</p>
 					</Col>
 				</Row>
 				<Row className="my-4">
