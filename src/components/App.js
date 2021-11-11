@@ -147,12 +147,12 @@ function App() {
 			<nav className="navbar fixed-top mx-3">
 				<a
 					className="navbar-brand col-sm-3 col-md-2 mr-0 mx-4"
-					href="http://www.google.com"
+					href="http://www.kaadoo.in"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<img src={logo} className="App-logo" alt="logo" />
-					Mint Testing
+					Kaadoo Verse
 				</a>
 
 				{account ? (
