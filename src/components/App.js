@@ -170,7 +170,7 @@ function App() {
 			<main>
 				<Row className="my-3">
 					<Col className="text-center">
-						<h1 className="text-uppercase">Open Emojis</h1>
+						<h1 className="text-uppercase">Wild Life Cards</h1>
 						<p className="countdown">
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
 						</p>
