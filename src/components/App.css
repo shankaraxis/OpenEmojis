@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: var(--clr-prussian-blue);
+    background-image: url("bg.jpg");
     /* background: linear-gradient(to top right, hsl(200, 100%, 16%), hsl(200, 100%, 20%)); */
     color: var(--clr-malibu);
 
