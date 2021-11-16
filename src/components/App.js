@@ -152,7 +152,7 @@ function App() {
 					rel="noopener noreferrer"
 				>
 					<img src={logo} className="App-logo" alt="logo" />
-					Mirro Verse
+					<font color="#FFFFFF">MirroVerse</font>
 				</a>
 
 				{account ? (
@@ -174,7 +174,7 @@ function App() {
 						<p className="countdown">
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
 						</p>
-						<p>Welcome! Mint your Mirroverse NFT's (not including gas fees) on 11/04/21</p>
+						<p><font color="#FFFFFF">Welcome! Mint your Mirroverse NFT's (not including gas fees) on 11/04/21</font></p>
 					</Col>
 				</Row>
 				<Row className="my-4">
