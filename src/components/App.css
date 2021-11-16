@@ -20,8 +20,7 @@ html {
 body {
     background-image: url("bg.jpg");
     
-    background-size: cover;
-    /* background: linear-gradient(to top right, hsl(200, 100%, 16%), hsl(200, 100%, 20%)); */
+        /* background: linear-gradient(to top right, hsl(200, 100%, 16%), hsl(200, 100%, 20%)); */
     color: var(--clr-malibu);
 
     min-height: 100vh;
