@@ -188,5 +188,5 @@ a, a:hover {
     max-width: 250px;
     height: auto;
 
-    border: .75em solid var(--clr-orient);
+ /*   border: .75em solid var(--clr-orient); */
 }
