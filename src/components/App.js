@@ -199,7 +199,7 @@ function App() {
 									</Row>
 				<Row className="my-2 text-center">
 					{message ? (
-						<p>{message}</p>
+						<p><font color='#FFFFFF'>{message}</font></p>
 					) : (
 						<div>
 							{openEmoji &&
