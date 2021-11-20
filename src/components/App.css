@@ -93,6 +93,7 @@ a, a:hover {
     color: var(--clr-malibu);
 
     border: none;
+    border-radius: 35%;
 
     text-transform: uppercase;
     text-decoration: none;
