@@ -196,11 +196,7 @@ function App() {
 					</Col>
 				</Row>
 				<Row className="my-3">
-					<Col className="flex">
-						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
-						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">View Transactions</a>
-					</Col>
-				</Row>
+									</Row>
 				<Row className="my-2 text-center">
 					{message ? (
 						<p>{message}</p>
@@ -222,6 +218,11 @@ function App() {
 							<p>{`NFT's Left: ${supplyAvailable}, You've minted: ${balanceOf}`}</p>
 						</div>
 					)}
+					<Col className="flex">
+						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
+						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">View Transactions</a>
+					</Col>
+
 				</Row>
 			</main>
 		</div>
