@@ -109,7 +109,7 @@ function App() {
 			return
 		}
 
-		if (balanceOf > 0) {
+		if (balanceOf > 5) {
 			window.alert('You\'ve already minted!')
 			return
 		}
@@ -213,10 +213,10 @@ function App() {
 							}
 
 							{CONFIG.NETWORKS[currentNetwork] && (
-								<p>Current Network: {CONFIG.NETWORKS[currentNetwork].name}</p>
+								<p><font color='#FFFFFF'>Current Network: {CONFIG.NETWORKS[currentNetwork].name}</p>
 							)}
 
-							<p>{`NFT's Left: ${supplyAvailable}, You've minted: ${balanceOf}`}</p>
+							<p><font color='#FFFFFF'>{`NFT's Left: ${supplyAvailable}, You've minted: ${balanceOf}`}</font></p>
 						</div>
 					)}
 					<Col className="flex">
