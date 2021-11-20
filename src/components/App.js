@@ -164,6 +164,7 @@ function App() {
 						{account.slice(0, 5) + '...' + account.slice(38, 42)}
 					</a>
 				) : (
+				        <a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
 					<button onClick={web3Handler} className="button nav-button btn-sm mx-4">Connect Wallet</button>
 				)}
 			</nav>
@@ -219,7 +220,7 @@ function App() {
 						</div>
 					)}
 					<Col className="flex">
-						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
+						
 						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">View Transactions</a>
 					</Col>
 
