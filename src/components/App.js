@@ -197,8 +197,8 @@ function App() {
 				</Row>
 				<Row className="my-3">
 					<Col className="flex">
-						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">View My Opensea</a>
-						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">My Etherscan</a>
+						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
+						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">View Transactions</a>
 					</Col>
 				</Row>
 				<Row className="my-2 text-center">
