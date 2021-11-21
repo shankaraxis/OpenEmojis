@@ -213,7 +213,7 @@ function App() {
 							}
 
 							{CONFIG.NETWORKS[currentNetwork] && (
-								<p><font color='#FFFFFF'>Current Network: {CONFIG.NETWORKS[currentNetwork].name}</p>
+								<p><font color='#FFFFFF'>Current Network: {CONFIG.NETWORKS[currentNetwork].name}</font></p>
 							)}
 
 							<p><font color='#FFFFFF'>{`NFT's Left: ${supplyAvailable}, You've minted: ${balanceOf}`}</font></p>
