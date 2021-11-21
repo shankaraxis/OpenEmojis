@@ -90,7 +90,7 @@ a, a:hover {
     padding: 1em 2em;
     margin: .5em auto;
 
-    background: var(--clr-orient);
+    background: var(#f44336);
     color: var(--clr-malibu);
 
     border: none;
