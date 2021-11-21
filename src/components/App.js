@@ -109,7 +109,7 @@ function App() {
 			return
 		}
 
-		if (balanceOf > 0) {
+		if (balanceOf > 5) {
 			window.alert('You\'ve already minted!')
 			return
 		}
