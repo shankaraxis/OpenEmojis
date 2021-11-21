@@ -154,7 +154,7 @@ function App() {
 					<img src={logo} className="App-logo" alt="logo" />
 					<font color="#FFFFFF">MirroVerse</font>
 				</a>
-
+<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
 				{account ? (
 					<a
 						href={`https://etherscan.io/address/${account}`}
@@ -220,7 +220,7 @@ function App() {
 						</div>
 					)}
 					<Col className="flex">
-						<a href={openseaURL + account} target="_blank" rel="noreferrer" className="button">Marketplace</a>
+						
 						<a href={`${blockchainExplorerURL}address/${account}`} target="_blank" rel="noreferrer" className="button">View Transactions</a>
 					</Col>
 
