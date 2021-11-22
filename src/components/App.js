@@ -6,8 +6,8 @@ import Web3 from 'web3'
 // Import Images + CSS
 import logo from '../images/logo.png'
 import happyImage from '../images/happy.png'
-import excitedImage from '../images/gorilla1.png'
-import sadImage from '../images/gorilla1.png'
+import excitedImage from '../images/happy.png'
+import sadImage from '../images/happy.png'
 import './App.css'
 
 // Import ABI + Config
@@ -173,7 +173,7 @@ function App() {
 					<Col className="text-center">
 						<h1 className="text-uppercase"><font color="#FFFFFF">Wild Life Cards</font></h1>
 						<p className="countdown">
-							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
+							<font color="#FFFFFF">{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />} </font>
 						</p>
 						<p><font color="#FFFFFF">Welcome! Mint your Mirroverse NFT's (not including gas fees) on 11/04/21</font></p>
 					</Col>
@@ -203,14 +203,14 @@ function App() {
 						<p><font color='#FFFFFF'>{message}</font></p>
 					) : (
 						<div>
-							{openEmoji &&
+							<font color="#FFFFFF">{openEmoji &&
 								<a href={`${blockchainExplorerURL}address/${openEmoji._address}`}
 									target="_blank"
 									rel="noreferrer"
 									className="contract-link d-block my-3">
 									{openEmoji._address}
 								</a>
-							}
+							}</font>
 
 							{CONFIG.NETWORKS[currentNetwork] && (
 								<p><font color='#FFFFFF'>Current Network: {CONFIG.NETWORKS[currentNetwork].name}</font></p>
