@@ -208,7 +208,7 @@ function App() {
 									target="_blank"
 									rel="noreferrer"
 									className="contract-link d-block my-3">
-									{openEmoji._address}
+									<font color='#FFFFFF'>{openEmoji._address}</font>
 								</a>
 							}</font>
 
