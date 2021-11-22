@@ -6,8 +6,8 @@ import Web3 from 'web3'
 // Import Images + CSS
 import logo from '../images/logo.png'
 import happyImage from '../images/happy.png'
-import excitedImage from '../images/excited.png'
-import sadImage from '../images/sad.png'
+import excitedImage from '../images/gorilla1.png'
+import sadImage from '../images/gorilla1.png'
 import './App.css'
 
 // Import ABI + Config
