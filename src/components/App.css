@@ -43,6 +43,9 @@ background-position: center;
     place-content: center;
 }
 
+a {
+  color: #000000;
+}
 main {
     min-height: 100vh;
 
