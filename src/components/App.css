@@ -170,7 +170,7 @@ a, a:hover {
     position: absolute;
     width: 40px;
     height: 400%;
-    background: var(--clr-malibu);
+    background: #92D3F5;
     transition: 1s;
     animation: animate 2s linear infinite;
 }
