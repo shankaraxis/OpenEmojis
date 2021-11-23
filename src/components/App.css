@@ -156,7 +156,7 @@ a, a:hover {
 }
 
 .mint-button:hover, .button:hover {
-    background: var(--clr-malibu);
+    background: #92D3F5;
     color: var(--clr-prussian-blue);
 
     box-shadow: 0px 0px 10px var(--clr-malibu),
@@ -183,12 +183,12 @@ a, a:hover {
     content: '';
     position: absolute;
     inset: 4px;
-    background: var(--clr-prussian-blue);
+    background: #92D3F5;
     transition: 0.5s;
 }
 
 .mint-button:hover::after {
-    background: var(--clr-malibu);
+   background: #92D3F5;
 }
 
 .mint-button span {
